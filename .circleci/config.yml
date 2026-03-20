@@ -8,10 +8,8 @@ jobs:
     docker:
       - image: cimg/node:20.10.0
     resource_class: medium
-    environment:
-      # EXPO_TOKEN is set in CircleCI Project Settings > Environment Variables
-      # This authenticates EAS CLI without exposing credentials in code
-      EXPO_TOKEN: ""
+    # EXPO_TOKEN is injected from CircleCI Project Settings > Environment Variables
+    # or from the "expo-credentials" context
     steps:
       - checkout
 
