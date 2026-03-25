@@ -59,8 +59,9 @@
     "extra": {
       "router": {},
       "eas": {
-        "projectId": "117ed01b-1bce-4368-b672-7e5765e5ce11"
+        "projectId": "011c807c-8589-4614-8e10-39406c214613"
       }
-    }
+    },
+    "owner": "book-worm-app"
   }
 }
