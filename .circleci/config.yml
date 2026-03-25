@@ -51,10 +51,7 @@ jobs:
           command: eas build --profile preview --platform android --non-interactive
           no_output_timeout: 30m
 
-      - run:
-          name: Build Preview (iOS)
-          command: eas build --profile preview --platform ios --non-interactive
-          no_output_timeout: 30m
+      
 
 workflows:
   preview_on_push:
