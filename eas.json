@@ -13,12 +13,12 @@
                 "buildType": "apk"
             },
             "env": {
-                "EXPO_PUBLIC_API_URL": "http://app-alb-1126614544.ap-south-1.elb.amazonaws.com"
+                "EXPO_PUBLIC_API_URL": "http://Book-alb-862643538.ap-south-1.elb.amazonaws.com"
             }
         },
         "production": {
             "env": {
-                "EXPO_PUBLIC_API_URL": "http://app-alb-1126614544.ap-south-1.elb.amazonaws.com"
+                "EXPO_PUBLIC_API_URL": "http://Book-alb-862643538.ap-south-1.elb.amazonaws.com"
             }
         }
     },
